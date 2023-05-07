@@ -18,4 +18,8 @@ Task List
 -  [] Delete Komplain
 -  [] List Komplain
 -  [] List Komplain by Status
+-  [x] Create Menu
+-  [x] Edit Menu
+-  [x] Delete Menu
+-  [x] List Menu
 

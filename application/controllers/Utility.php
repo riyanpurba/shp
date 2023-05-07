@@ -80,7 +80,7 @@ class Utility extends CI_Controller {
 	}
 
 	public function delete_menu2(){
-		$id = (int) $this->input->post('id');
+		$id = (int) $this->input->post('submenuid');
 		$data = $this->menumodel->destroyMenu2($id);
 		echo json_encode($data);
 	}

@@ -61,4 +61,10 @@ class MenuModel extends CI_Model {
 		$this->db->where('submenu_id', $id);
 		$this->db->update('tbl_menu2', $data);
 	}
+
+	public function destroyMenu2($id){
+		$this->db->where('submenu_id', $id);
+		$result = $this->db->delete('tbl_menu2');
+		return $result;
+	}
 }
